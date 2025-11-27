@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Trattoria Bella — Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">Trattoria Bella</div>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="text">
+        <h1>Authentic Italian flavors, crafted fresh every day</h1>
+        <p>Warm atmosphere, seasonal ingredients, and a curated wine selection. Book a table or order takeaway.</p>
+        <a class="btn" href="#contact">Reserve a Table</a>
+        <div class="cards-row">
+          <div class="card">Lunch menu from €12</div>
+          <div class="card">Delivery across the neighborhood</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/360x240?text=Dish" alt="Dish" class="dish-img">
+        <strong>Chef's Special: Tagliatelle al Tartufo</strong>
+        <p class="dish-desc">Handmade pasta with black truffle and Parmigiano Reggiano.</p>
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-item"><strong>Margherita</strong><div class="menu-desc">Tomato • Mozzarella • Basil</div></div>
+        <div class="menu-item"><strong>Carbonara</strong><div class="menu-desc">Pecorino • Guanciale • Egg</div></div>
+        <div class="menu-item"><strong>Saltimbocca</strong><div class="menu-desc">Veal • Sage • White wine</div></div>
+        <div class="menu-item"><strong>Insalata</strong><div class="menu-desc">Mixed greens • Lemon dressing</div></div>
+        <div class="menu-item"><strong>Tiramisu</strong><div class="menu-desc">Classic coffee mascarpone</div></div>
+        <div class="menu-item"><strong>Wine by glass</strong><div class="menu-desc">Selection of regional labels</div></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Family-run since 1998. We focus on seasonal produce and friendly service. Located in the heart of the city.</p>
+    </section>
+
+    <footer id="contact">
+      <p><strong>Email:</strong> info@trattoriabella.it • <strong>Phone:</strong> +39 06 1234567</p>
+      <p>© 2025 Trattoria Bella</p>
+    </footer>
+  </div>
+</body>
+</html>
