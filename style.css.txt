@@ -46,6 +46,7 @@ nav a {
   text-decoration: none;
   color: #222;
   font-weight: 600;
+  transition: color 0.3s;
 }
 
 nav a:hover {
@@ -59,6 +60,7 @@ nav a:hover {
   gap: 24px;
   align-items: center;
   padding: 36px 0;
+  background: linear-gradient(to right, #fff8f0, #faf7f2);
 }
 
 .hero .text h1 {
@@ -74,14 +76,16 @@ nav a:hover {
 .btn {
   background: var(--accent);
   color: #fff;
-  padding: 12px 18px;
+  padding: 14px 22px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
+  transition: transform 0.2s, opacity 0.2s;
 }
 
 .btn:hover {
   opacity: 0.9;
+  transform: scale(1.05);
 }
 
 .cards-row {
@@ -94,8 +98,14 @@ nav a:hover {
   background: #fff;
   padding: 18px;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(20, 20, 20, 0.06);
+  box-shadow: 0 6px 20px rgba(20, 20, 20, 0.08);
   flex: 1;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(20, 20, 20, 0.12);
 }
 
 .dish-img {
@@ -118,18 +128,25 @@ nav a:hover {
 }
 
 .menu-item {
-  padding: 12px;
-  border-radius: 8px;
+  padding: 14px;
+  border-radius: 10px;
   background: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.menu-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(20, 20, 20, 0.08);
 }
 
 .menu-desc {
   color: #666;
+  margin-top: 6px;
 }
 
 /* About */
 #about {
-  margin-top: 18px;
+  margin-top: 28px;
 }
 
 #about p {
@@ -142,7 +159,8 @@ footer {
   text-align: center;
   padding: 24px 0;
   color: #666;
-  margin-top: 28px;
+  margin-top: 36px;
+  font-size: 14px;
 }
 
 /* Responsive */
